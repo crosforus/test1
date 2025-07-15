@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>[Your Channel] - Mods Vault</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: #0f0f0f;
+    }
+    .mod-card:hover {
+      transform: scale(1.03);
+      transition: all 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body class="text-white font-sans">
+
+  <!-- Header -->
+  <header class="p-6 bg-black border-b border-gray-700 shadow-lg">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-lime-400">[Your Channel]</h1>
+      <nav>
+        <a href="#mods" class="ml-6 text-gray-300 hover:text-white">Mods</a>
+        <a href="#videos" class="ml-6 text-gray-300 hover:text-white">Videos</a>
+        <a href="#contact" class="ml-6 text-gray-300 hover:text-white">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-gradient-to-r from-gray-900 to-black">
+    <h2 class="text-5xl font-extrabold mb-4">⚔️ Welcome to the Mods Vault</h2>
+    <p class="text-lg text-gray-300 mb-8">Download high-quality custom mods made for [Game Name] and beyond.</p>
+    <a href="#mods" class="bg-lime-500 hover:bg-lime-600 text-black px-6 py-3 rounded-full font-bold text-lg">Browse Mods ↓</a>
+  </section>
+
+  <!-- Mods Showcase -->
+  <section id="mods" class="py-16 bg-[#111]">
+    <div class="max-w-5xl mx-auto text-center mb-10">
+      <h2 class="text-4xl font-bold text-white">🎯 Available Mods</h2>
+      <p class="text-gray-400">Click to download and enjoy!</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 max-w-6xl mx-auto">
+      
+      <!-- Mod Card -->
+      <div class="mod-card bg-gray-800 p-5 rounded-lg shadow-md border border-gray-700">
+        <h3 class="text-2xl font-bold text-lime-400">Ultra Speed Mod</h3>
+        <p class="text-gray-300 mt-2 text-sm">Gives your character super speed and lightning reflexes.</p>
+        <a href="https://yourmodlink.com" target="_blank" class="inline-block mt-4 bg-lime-500 text-black px-4 py-2 rounded hover:bg-lime-600 font-semibold">Download</a>
+      </div>
+
+      <!-- Another Mod -->
+      <div class="mod-card bg-gray-800 p-5 rounded-lg shadow-md border border-gray-700">
+        <h3 class="text-2xl font-bold text-lime-400">Zombie Apocalypse</h3>
+        <p class="text-gray-300 mt-2 text-sm">Turn the world into a survival nightmare with this undead mod.</p>
+        <a href="https://yourmodlink.com" target="_blank" class="inline-block mt-4 bg-lime-500 text-black px-4 py-2 rounded hover:bg-lime-600 font-semibold">Download</a>
+      </div>
+
+      <!-- Add more mod cards as needed -->
+
+    </div>
+  </section>
+
+  <!-- YouTube Section -->
+  <section id="videos" class="py-16 bg-gray-950 text-center">
+    <h2 class="text-4xl font-bold mb-6">🎥 Latest Video</h2>
+    <div class="flex justify-center">
+      <iframe class="w-full md:w-3/4 h-64 md:h-96 border-4 border-lime-400 rounded-lg" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Contact or Discord -->
+  <section id="contact" class="py-16 bg-black text-center">
+    <h2 class="text-3xl font-bold text-white mb-4">📢 Join the Community</h2>
+    <p class="text-gray-400 mb-6">Want to chat or get updates? Join our Discord server!</p>
+    <a href="https://discord.gg/yourserver" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-full font-semibold text-white">Join Discord</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-6 text-center bg-gray-900 text-gray-500 text-sm">
+    © 2025 [Your Channel Name]. Built for gamers, by gamers.
+  </footer>
+
+</body>
+</html>
